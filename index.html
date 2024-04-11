@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imagens/logo.png" alt="Quiz Master Logo">
+    </header>
+    <main>
+        <h1>Escolha um Quiz:</h1>
+        <button onclick="carregarQuiz('banco-de-dados')">Quiz de Banco de Dados</button>
+        <button onclick="carregarQuiz('programacao')">Quiz de Programação</button>
+        <button onclick="carregarQuiz('web')">Quiz de Web</button>
+    </main>
+    <footer>
+        <audio src="assets/audios/musicaFundo.mp3" autoplay loop></audio>
+    </footer>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
